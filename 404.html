@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title></title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-COtEunrH.css" as="style"><link rel="stylesheet" href="/assets/style-COtEunrH.css">
+    <link rel="modulepreload" href="/assets/app-CMsEq4c3.js"><link rel="modulepreload" href="/assets/404.html-CLnWWYIL.js">
+    <link rel="prefetch" href="/assets/index.html-CsrntzEM.js" as="script"><link rel="prefetch" href="/assets/about.html-BkaMHcx7.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-e6b4856b><main class="page" data-v-e6b4856b><div class="theme-default-content" vp-content data-v-e6b4856b><h1 data-v-e6b4856b>404</h1><blockquote data-v-e6b4856b>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/" data-v-e6b4856b>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-CMsEq4c3.js" defer></script>
+  </body>
+</html>
