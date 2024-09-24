@@ -5,7 +5,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme({
     title: 'My VuePress Site',
-    base: ".",
+    base: "/",
     logo: '23.svg', //文件在public文件夹内
     nav: [
       { text: '你的文字', link: '/' }, // 在 logo 旁边添加文字
